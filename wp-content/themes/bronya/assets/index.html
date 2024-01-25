@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<!-- Переключение IE в последнию версию, на случай если в настройках пользователя стоит меньшая -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+		<!-- Адаптирование страницы для мобильных устройств -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<!-- Запрет распознования номера телефона -->
+		<meta name="format-detection" content="telephone=no">
+		<meta name="SKYPE_TOOLBAR" content ="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+
+		<!-- Заголовок страницы -->
+		<title>Заголовок страницы</title>
+
+		<!-- Данное значение часто используют(использовали) поисковые системы -->
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+
+		<!-- Традиционная иконка сайта, размер 16x16, прозрачность поддерживается. Рекомендуемый формат: .ico или .png -->
+		<link rel="shortcut icon" href="images/favicon.ico">
+
+		<!-- Подключение файлов стилей -->
+		<link rel="stylesheet" href="css/swiper-bundle.min.css">
+		<link rel="stylesheet" href="css/fancybox.css">
+
+		<link rel="stylesheet" href="css/styles.css">
+
+		<link rel="stylesheet" href="css/response_1199.css" media="(max-width: 1199px)">
+		<link rel="stylesheet" href="css/response_1024.css" media="(max-width: 1024px)">
+		<link rel="stylesheet" href="css/response_767.css" media="(max-width: 767px)">
+		<link rel="stylesheet" href="css/response_479.css" media="(max-width: 479px)">
+	</head>
+
+	<body>
+		<div class="wrap">
+			<div class="main">
+				<!-- Шапка -->
+				<header>
+					<div class="cont">
+						<div class="box flex">
+							<div class="logo"><img src="images/logo.svg" alt=""></div>
+
+							<div class="wrap_menu flex">
+								<nav class="menu flex">
+									<div class="item"><a href="/" class="scroll_link marg" data-anchor="#sect_about">Про нас</a></div>
+									<div class="item"><a href="/" class="scroll_link" data-anchor="#for_whom">Для кого</a></div>
+									<div class="item"><a href="/" class="scroll_link marg" data-anchor="#advantages">Заходи</a></div>
+									<div class="item"><a href="/" class="scroll_link" data-anchor="#sect_join" data-offset="-30">Приєднатися</a></div>
+								</nav>
+
+								<div class="contact flex">
+									<div class="contact_text">
+										<span>Є питання?</span> Пиши
+									</div>
+
+									<div class="line"></div>
+
+									<div class="socials flex">
+										<a href="/" class="soc" target="_blank">
+											<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M20.665 3.71682L2.93497 10.5538C1.72497 11.0398 1.73197 11.7148 2.71297 12.0158L7.26497 13.4358L17.797 6.79082C18.295 6.48782 18.75 6.65082 18.376 6.98282L9.84297 14.6838H9.84097L9.84297 14.6848L9.52897 19.3768C9.98897 19.3768 10.192 19.1658 10.45 18.9168L12.661 16.7668L17.26 20.1638C18.108 20.6308 18.717 20.3908 18.928 19.3788L21.947 5.15082C22.256 3.91182 21.474 3.35082 20.665 3.71682Z" fill="currentColor"/>
+											</svg>
+										</a>
+
+										<a href="/" class="soc" target="_blank">
+											<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M12 8.87579C10.2797 8.87579 8.87577 10.2797 8.87577 12C8.87577 13.7203 10.2797 15.1242 12 15.1242C13.7203 15.1242 15.1242 13.7203 15.1242 12C15.1242 10.2797 13.7203 8.87579 12 8.87579ZM21.3703 12C21.3703 10.7063 21.382 9.42423 21.3094 8.13283C21.2367 6.63283 20.8945 5.30158 19.7976 4.2047C18.6984 3.10548 17.3695 2.76564 15.8695 2.69298C14.5758 2.62033 13.2937 2.63204 12.0023 2.63204C10.7086 2.63204 9.42655 2.62033 8.13515 2.69298C6.63515 2.76564 5.3039 3.10783 4.20702 4.2047C3.1078 5.30392 2.76796 6.63283 2.6953 8.13283C2.62265 9.42658 2.63436 10.7086 2.63436 12C2.63436 13.2914 2.62265 14.5758 2.6953 15.8672C2.76796 17.3672 3.11015 18.6985 4.20702 19.7953C5.30624 20.8945 6.63515 21.2344 8.13515 21.307C9.4289 21.3797 10.7109 21.368 12.0023 21.368C13.2961 21.368 14.5781 21.3797 15.8695 21.307C17.3695 21.2344 18.7008 20.8922 19.7976 19.7953C20.8969 18.6961 21.2367 17.3672 21.3094 15.8672C21.3844 14.5758 21.3703 13.2938 21.3703 12ZM12 16.807C9.33983 16.807 7.19296 14.6602 7.19296 12C7.19296 9.33986 9.33983 7.19298 12 7.19298C14.6601 7.19298 16.807 9.33986 16.807 12C16.807 14.6602 14.6601 16.807 12 16.807ZM17.0039 8.11876C16.3828 8.11876 15.8812 7.6172 15.8812 6.99611C15.8812 6.37501 16.3828 5.87345 17.0039 5.87345C17.625 5.87345 18.1266 6.37501 18.1266 6.99611C18.1267 7.14359 18.0978 7.28966 18.0415 7.42595C17.9851 7.56224 17.9024 7.68607 17.7981 7.79036C17.6939 7.89464 17.57 7.97733 17.4337 8.03368C17.2974 8.09004 17.1514 8.11895 17.0039 8.11876Z" fill="currentColor"/>
+											</svg>
+										</a>
+									</div>
+								</div>
+							</div>
+
+							<button type="button" class="mob_menu_link">
+								<span></span>
+								<span></span>
+								<span></span>
+							</button>
+						</div>
+					</div>
+				</header>
+				<!-- End Шапка -->
+
+
+				<!-- Основная часть -->
+				<section class="first_section">
+					<div class="abs"><img src="images/flag.svg" alt=""></div>
+
+					<div class="cont flex">
+						<div class="column">
+							<div class="subtitle">Антикризове ком’юніті </div>
+
+							<h1 class="title">Бізнес Броня</h1>
+						</div>
+
+						<div class="column">
+							<div class="desc">Закрита спільнота молодих підприємців, які прагнуть розвиватися, реалізувати свої амбіції та піднімати економіку України.</div>
+
+							<div class="link_join">
+								<a href="/">
+									Приєднатися
+
+									<span class="icon">
+										<svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M0.30188 9.02661H15.6981L7.86775 1.30199" stroke="currentColor" stroke-width="1.62066"/>
+											<path d="M7.79016 17.1133L12.1988 12.7709" stroke="currentColor" stroke-width="1.62066"/>
+										</svg>
+									</span>
+								</a>
+							</div>
+						</div>
+
+						<div class="link_video">
+							<a href="/">
+								<img src="images/sheet_img.png" alt="">
+
+								<span class="icon">
+									<svg width="24" height="28" viewBox="0 0 24 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M22.906 12.221C24.2393 12.9908 24.2393 14.9153 22.906 15.6851L3.47648 26.9027C2.14315 27.6725 0.47648 26.7103 0.47648 25.1707V2.73538C0.47648 1.19578 2.14315 0.233524 3.47648 1.00332L22.906 12.221Z" fill="currentColor"/>
+									</svg>
+								</span>
+							</a>
+						</div>
+					</div>
+				</section>
+
+
+				<section id="sect_about" class="sect_about">
+					<div class="cont">
+						<div class="subtitle">Підтримка підприємців – перемога на економічному фронті України</div>
+
+						<div class="main_title">Бізнес Броня – це</div>
+
+						<div class="grid flex">
+							<div class="item bord">
+								<div class="icon">
+									<img data-src="images/ic_about.svg" alt="" class="lozad">
+								</div>
+
+								<div class="text_block">
+									<span>Перспективне оточення</span> власників бізнесу та самозайнятих підприємців
+								</div>
+							</div>
+
+							<div class="item bord">
+								<div class="icon">
+									<img data-src="images/ic_about2.svg" alt="" class="lozad">
+								</div>
+
+								<div class="text_block">
+									<span>Навчальні матеріали на найбільш актуальні теми:</span> психологія, маркетинг та продажі в умовах війни, криптовалюта, інвестиції та ще багато цікавого
+								</div>
+							</div>
+
+							<div class="item img">
+								<img data-src="images/about_img.jpg" alt="" class="lozad">
+							</div>
+
+							<div class="item img">
+								<img data-src="images/about_img2.jpg" alt="" class="lozad">
+							</div>
+
+							<div class="item bord">
+								<div class="icon">
+									<img data-src="images/ic_about3.svg" alt="" class="lozad">
+								</div>
+
+								<div class="text_block">
+									<span>12 онлайн-зустрічей в місяць</span> з провідними експертами та власниками бізнесу з середнім оборотом 500 000$ в рік
+								</div>
+							</div>
+
+							<div class="item bord">
+								<div class="icon">
+									<img data-src="images/ic_about4.svg" alt="" class="lozad">
+								</div>
+
+								<div class="text_block">
+									<span>Офлайн-зустрічі</span> для <br>резидентів у Львові
+								</div>
+							</div>
+
+							<div class="item img">
+								<img data-src="images/about_img3.jpg" alt="" class="lozad">
+							</div>
+
+							<div class="item bord">
+								<div class="icon">
+									<img data-src="images/ic_about5.svg" alt="" class="lozad">
+								</div>
+
+								<div class="text_block">
+									<span>Підтримка</span> у спільному <br>чаті 24/7
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section id="for_whom" class="for_whom">
+					<div class="cont">
+						<div class="wrap_title flex">
+							<div class="main_title black">Бізнес Броня для тих, хто:</div>
+
+							<div class="block_quote flex">
+								<div class="photo">
+									<img data-src="images/enshtein_photo.jpg" alt="" class="lozad">
+								</div>
+
+								<div>
+									<div class="text">Саме криза рухає прогресом</div>
+
+									<div class="name">Альберт Ейнштейн</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="grid flex">
+							<div class="item">
+								<div class="number">01.</div>
+
+								<div class="data">Хоче швидко почати новий або адаптувати діючий бізнес під реалії війни</div>
+							</div>
+
+							<div class="item">
+								<div class="number">02.</div>
+
+								<div class="data">Бажає використати можливості кризи для власного масштабування</div>
+							</div>
+
+							<div class="item">
+								<div class="number">03.</div>
+
+								<div class="data">Потребує поради менторів для&nbsp;ефективного&nbsp;розвитку</div>
+							</div>
+
+							<div class="item">
+								<div class="number">04.</div>
+
+								<div class="data">Відчуває потребу отримувати досвід&nbsp;від&nbsp;бізнес-лідерів України</div>
+							</div>
+
+							<div class="item">
+								<div class="number">05.</div>
+
+								<div class="data">Шукає нові знайомства та партнерства для&nbsp;розвитку своєї справи</div>
+							</div>
+
+							<div class="item">
+								<div class="number">06.</div>
+
+								<div class="data">Шукає нові знання та шляхи до лідерства на українському ринку</div>
+							</div>
+
+							<div class="item">
+								<div class="number">07.</div>
+
+								<div class="data">Хоче вивести свій бізнес на новий рівень </div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section id="advantages" class="advantages">
+					<div class="cont">
+						<div class="main_title">Що отримують учасники ком’юніті:</div>
+
+						<div class="grid flex">
+							<div class="item">
+								<div class="top flex">
+									<div class="icon">
+										<img data-src="images/ic_community.svg" alt="" class="lozad">
+									</div>
+
+									<div class="number">01</div>
+								</div>
+
+								<div class="text_block">
+									<p>
+										<span>Щотижневі ZOOM-ефіри</span> від провідних експертів на найбільш актуальні теми: психологія, маркетинг та продажі в умовах війни, криптовалюта, інвестиції та ще багато&nbsp;цікавого
+									</p>
+								</div>
+							</div>
+
+							<div class="item">
+								<div class="top flex">
+									<div class="icon">
+										<img data-src="images/ic_community2.svg" alt="" class="lozad">
+									</div>
+
+									<div class="number">02</div>
+								</div>
+
+								<div class="text_block">
+									<p>
+										Офлайн та онлайн <span>мастермайнди</span>
+									</p>
+								</div>
+							</div>
+
+							<div class="item">
+								<div class="top flex">
+									<div class="icon">
+										<img data-src="images/ic_community3.svg" alt="" class="lozad">
+									</div>
+
+									<div class="number">03</div>
+								</div>
+
+								<div class="text_block">
+									<p>
+										<span>Практичні рекомендаціі та щотижневі розбори</span> від бізнес-наставників з середнім оборотом бізнесу 500 000$ в рік
+									</p>
+								</div>
+							</div>
+
+							<div class="item">
+								<div class="top flex">
+									<div class="icon">
+										<img data-src="images/ic_community4.svg" alt="" class="lozad">
+									</div>
+
+									<div class="number">04</div>
+								</div>
+
+								<div class="text_block">
+									<p>
+										<span>Оточення однодумців</span> у спільному чаті
+									</p>
+								</div>
+							</div>
+
+							<div class="item">
+								<div class="top flex">
+									<div class="icon">
+										<img data-src="images/ic_community5.svg" alt="" class="lozad">
+									</div>
+
+									<div class="number">05</div>
+								</div>
+
+								<div class="text_block">
+									<p>
+										<span>Записи прямих ефірів</span> для особистого користування
+									</p>
+								</div>
+							</div>
+
+							<div class="item">
+								<div class="top flex">
+									<div class="icon">
+										<img data-src="images/ic_community6.svg" alt="" class="lozad">
+									</div>
+
+									<div class="number">06</div>
+								</div>
+
+								<div class="text_block">
+									<p>
+										<span>Безкоштовний доступ</span> для офлайн-заходів&nbsp;<a href="/">проєкту PROBUSINESS</a>
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="swiper gallery">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide slide">
+									<a href="images/tmp/slide1.jpg" class="img fancy_slider">
+										<img src="images/tmp/slide1.jpg" alt="">
+									</a>
+								</div>
+
+								<div class="swiper-slide slide">
+									<a href="images/tmp/slide2.jpg" class="img fancy_slider">
+										<img src="images/tmp/slide2.jpg" alt="">
+									</a>
+								</div>
+
+								<div class="swiper-slide slide">
+									<a href="images/tmp/slide3.jpg" class="img fancy_slider">
+										<img src="images/tmp/slide3.jpg" alt="">
+									</a>
+								</div>
+
+								<div class="swiper-slide slide">
+									<a href="images/tmp/slide4.jpg" class="img fancy_slider">
+										<img src="images/tmp/slide4.jpg" alt="">
+									</a>
+								</div>
+
+								<div class="swiper-slide slide">
+									<a href="images/tmp/slide5.jpg" class="img fancy_slider">
+										<img src="images/tmp/slide5.jpg" alt="">
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section id="sect_join" class="sect_join">
+					<div class="cont flex">
+						<div class="data">
+							<div class="main_title black">За місяць участі ти отримаєш:</div>
+
+							<div class="events flex">
+								<div class="item text_block">
+									<p>
+										4 мастермайнди <br>
+										<span>з бізнес-наставниками</span>
+									</p>
+								</div>
+
+								<div class="item text_block">
+									<p>
+										4 онлайн-зустрічі <span>з <br>учасниками в форматі P2P</span>
+									</p>
+								</div>
+
+								<div class="item text_block">
+									<p>
+										4 прямі ефіри <span>з експертами&nbsp;у&nbsp;записі</span>
+									</p>
+								</div>
+
+								<div class="item text_block">
+									<p>
+										Офлайн-зустріч <br><span>у Львові</span>
+									</p>
+								</div>
+							</div>
+
+							<div class="pricing flex">
+								<div class="item">
+									<div class="name">При помісячній <br>оплаті участі</div>
+
+									<div class="box_price">
+										<div class="old_price"><span>$150</span></div>
+
+										<div class="price"><b>$69</b> <span>/місяць</span></div>
+									</div>
+								</div>
+
+								<div class="item">
+									<div class="name">При оплаті участі на 2 місяці одним платежем</div>
+
+									<div class="bonus">3 місяць в подарунок</div>
+
+									<div class="box_price">
+										<div class="old_price"><span>$300</span></div>
+
+										<div class="price"><b>$149</b> <span>/3 місяці</span></div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<form action="/" class="form">
+							<div class="title"><span>Хочеш стати резидентом?</span> <br>Ми чекаємо на тебе!</div>
+
+							<div class="line_form">
+								<input type="text" name="name" class="input" placeholder="ПІБ">
+							</div>
+
+							<div class="line_form">
+								<input type="tel" name="phone" class="input" placeholder="Номер телефону">
+							</div>
+
+							<div class="line_form">
+								<input type="text" name="sphere" class="input" placeholder="Сфера діяльності">
+							</div>
+
+							<div class="submit">
+								<button type="submit" class="submit_btn">Приєнатися</button>
+							</div>
+						</form>
+					</div>
+				</section>
+				<!-- End Основная часть -->
+			</div>
+		</div>
+
+		<div class="supports_error">
+			Ваш браузер застарів рекомендуємо оновити його до останньої версії <br> або використовувати інший більш сучасний.
+		</div>
+
+
+		<!-- Подключение javascript файлов -->
+		<script src="js/jquery-3.5.0.min.js"></script>
+		<script src="js/jquery-migrate-1.4.1.min.js"></script>
+
+		<script src="js/swiper-bundle.min.js"></script>
+
+		<script src="js/lozad.min.js"></script>
+
+		<script src="js/fancybox.min.js"></script>
+		<script src="js/inputmask.min.js"></script>
+
+		<script src="js/functions.js"></script>
+		<script src="js/scripts.js"></script>
+	</body>
+</html>

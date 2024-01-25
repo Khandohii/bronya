@@ -1,0 +1,43 @@
+@media (max-width: 1199px){
+    /*---------------
+        Main styles
+    ---------------*/
+
+    /*---------------
+        Header
+    ---------------*/
+
+    /*---------------
+        Main section
+    ---------------*/
+    .sect_about .grid {
+        --margin-left: 30px;
+        --margin-bottom: 30px;
+        --items: 3;
+        --items-large: 2;
+        margin-left: calc(var(--margin-left) * -1);
+        margin-bottom: calc(var(--margin-bottom) * -1);
+        align-items: stretch;
+        align-content: stretch;
+    }
+
+
+    .sect_join .data{
+        width: calc(100% - 430px);
+    }
+
+    .sect_join .form{
+        width: 400px;
+        padding: 40px;
+    }
+
+
+    .for_whom .block_quote{
+        width: auto;
+    }
+
+    /*---------------
+        Footer
+    ---------------*/
+    
+}

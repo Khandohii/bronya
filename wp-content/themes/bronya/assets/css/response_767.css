@@ -1,0 +1,137 @@
+@media (max-width: 767px){
+    /*---------------
+        Main styles
+    ---------------*/
+    
+    /*---------------
+        Header
+    ---------------*/
+
+    /*---------------
+        Main section
+    ---------------*/
+    .first_section{
+        padding-top: 106px;
+    }
+
+    .first_section:after{
+        margin-left: 0;
+        left: auto;
+        right: -351px;
+        top: 356px;
+    }
+
+    .first_section .abs{
+        top: 20px;
+    }
+
+    .first_section .cont:before{
+        display: none;
+    }
+
+    .first_section .column{
+        width: 100%;
+        position: relative;
+        z-index: 10;
+    }
+
+    .first_section .desc{
+        margin-top: 40px;
+    }
+
+    .first_section .link_video{
+        position: relative;
+        width: 100%;
+        margin-top: 59px;
+        padding: 0;
+    }
+
+    .first_section .link_video:before{
+        content: '';
+        width: 100%;
+        height: 1px;
+        background: #474747;
+        top: 50%;
+        transform: translateY(-5px);
+        left: 0;
+        position: absolute;
+    }
+
+    .first_section .link_video a{
+        width: 192px;
+        margin: 0 auto;
+        position: relative;
+        z-index: 10;
+    }
+
+
+    .sect_about{
+        margin-top: 100px;
+    }
+
+    .sect_about .grid {
+        --items: 1;
+        --items-large: 1;
+    }
+
+    .sect_about .item.bord{
+        min-height: 1px;
+        flex-direction: row;
+        padding: 36px 26px;
+        justify-content: flex-start;
+    }
+
+    .sect_about .item .text_block{
+        margin-top: 0;
+        margin-left: 22px;
+        align-self: center;
+    }
+
+
+    .for_whom .grid {
+        --items: 1;
+    }
+
+    .for_whom .item:nth-child(even){
+        border-left: none;
+        padding-left: 0;
+    }
+
+    .for_whom .item:nth-child(odd){
+        padding-right: 0;
+    }
+
+
+    .advantages .grid {
+        --items: 2;
+    }
+
+
+    .sect_join{
+        margin-top: 100px;
+    }
+
+    .sect_join .pricing .item{
+        padding-top: 25px;
+        padding-right: 25px;
+    }
+
+    .sect_join .pricing .item:nth-child(even){
+        padding-left: 25px;
+        padding-right: 0;
+    }
+
+    .sect_join .pricing .item .bonus{
+        margin-bottom: 28px;
+    }
+
+    /*---------------
+        Footer
+    ---------------*/
+
+
+    .modal .main_title{
+        font-size: 38px
+    }
+    
+}

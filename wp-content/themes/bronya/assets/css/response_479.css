@@ -1,0 +1,288 @@
+@media (max-width: 479px){
+    /*---------------
+        Main styles
+    ---------------*/
+    .main_title{
+        font-size: 32px;
+    }
+
+
+    .form .input{
+        height: 60px;
+        padding: 0 26px;
+    }
+
+    .form .submit_btn{
+        height: 65px;
+        font-size: 18px;
+    }
+
+
+    .block_quote .photo{
+        width: 73px;
+        height: 73px;
+        margin-right: 39px;
+    }
+
+    .block_quote .photo:after{
+        top: -7px;
+        right: -10px;
+        width: 29px;
+        height: 24px;
+        background-size: contain;
+    }
+
+    .block_quote .text{
+        font-size: 14px;
+    }
+
+    .block_quote .name{
+        font-size: 14px;
+        margin-top: 11px;
+        padding-left: 30px;
+    }
+
+    .block_quote .name:before{
+        top: 9px;
+        width: 20px;
+    }
+
+    /*---------------
+        Header
+    ---------------*/
+
+    /*---------------
+        Main section
+    ---------------*/
+    .first_section .abs{
+        right: -101px;
+    }
+
+    .first_section .subtitle{
+        font-size: 21px;
+    }
+
+    .first_section .title{
+        margin-top: 20px;
+    }
+
+    .first_section .desc{
+        margin-top: 23px;
+        font-size: 18px;
+    }
+
+    .first_section .link_join{
+        margin-top: 30px;
+    }
+
+    .first_section .link_video a{
+        width: 152px;
+    }
+
+
+    .sect_about{
+        margin-top: 60px;
+    }
+
+    .sect_about .subtitle{
+        font-size: 14px;
+        padding-left: 42px;
+        margin-bottom: 14px;
+    }
+
+    .sect_about .subtitle:before{
+        width: 25px;
+        top: 8px;
+    }
+
+    .sect_about .main_title{
+        margin-bottom: 39px;
+    }
+
+    .sect_about .grid {
+        --margin-bottom: 21px;
+    }
+
+    .sect_about .item.bord{
+        padding: 38px 20px 38px 25px;
+    }
+
+    .sect_about .item .icon{
+        width: 51px;
+        height: 51px;
+        padding: 16px;
+    }
+
+    .sect_about .item .text_block{
+        font-size: 16px;
+        align-self: center;
+    }
+
+    .sect_about .item.img{
+        min-width: 210px;
+    }
+
+
+    .for_whom{
+        margin-top: 70px;
+        padding: 70px 0;
+    }
+
+    .for_whom:before{
+        display: none;
+    }
+
+    .for_whom:after{
+        width: 302px;
+        height: 302px;
+        top: 88px;
+        right: -266px;
+    }
+
+    .for_whom .block_quote{
+        order: -1;
+        margin-bottom: 50px;
+    }
+
+    .for_whom .main_title{
+        margin-bottom: 28px;
+        max-width: 250px;
+    }
+
+    .for_whom .item{
+        padding: 25px 0;
+    }
+
+    .for_whom .item .number{
+        width: 30px;
+        margin-right: 15px;
+        font-size: 18px;
+    }
+
+    .for_whom .item .data{
+        font-size: 18px;
+    }
+
+
+    .advantages{
+        margin-top: 64px;
+    }
+
+    .advantages .grid {
+        --items: 1;
+        --margin-bottom: 29px;
+    }
+
+    .advantages .item{
+        border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+        padding-bottom: 29px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        align-content: flex-start;
+    }
+
+    .advantages .item .top{
+        border: none;
+        padding-bottom: 0;
+        width: 64px;
+        margin-right: 22px;
+        height: 64px;
+    }
+
+    .advantages .item .top .number{
+        display: none;
+    }
+
+    .advantages .item .text_block{
+        font-size: 16px;
+        align-self: center;
+        margin-top: 10px;
+    }
+
+
+    .gallery{
+        margin-top: 41px;
+    }
+
+    .gallery .slide{
+        width: 169px;
+    }
+
+
+    .sect_join{
+        margin-top: 90px;
+        padding: 64px 0 80px;
+    }
+
+    .sect_join .main_title{
+        font-size: 32px;
+        max-width: 270px;
+    }
+
+    .sect_join .events {
+        --items: 1;
+    }
+
+    .sect_join .events .item{
+        align-self: center;
+    }
+
+    .sect_join .pricing {
+        margin-top: 47px;
+        --items: 1;
+    }
+
+    .sect_join .pricing .item{
+        padding-left: 44px;
+        padding-top: 4px;
+        padding-bottom: 33px;
+        border-top: none;
+        border-left: 1px solid #ebebeb;
+    }
+
+    .sect_join .pricing .item:nth-child(even){
+        padding-left: 44px;
+        padding-top: 30px;
+        padding-bottom: 0;
+        border-top: 1px solid #ebebeb;
+    }
+
+    .sect_join .pricing .item .name{
+        margin-bottom: 20px;
+    }
+
+    .sect_join .form{
+        padding: 45px 29px 55px;
+    }
+
+    .sect_join .form .title{
+        font-size: 21px;
+    }
+
+    .sect_join .form .submit_btn{
+        margin-top: 18px;
+    }
+
+    /*---------------
+        Footer
+    ---------------*/
+    .modal{
+        padding: 30px;
+    }
+
+    .modal .main_title{
+        font-size: 29px;
+    }
+
+    .modal .link_btn button{
+        height: 65px;
+        font-size: 18px;
+    }
+
+    .success_wrap .modal .close_btn{
+        top: 0;
+        right: 0;
+    }
+    
+}
